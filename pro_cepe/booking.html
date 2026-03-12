@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="selectedSalon">Book Your Appointment</h1>
+
+<form id="bookingForm">
+
+<label>Name</label>
+<input type="text" id="name" required>
+
+<label>Phone</label>
+<input type="text" id="phone" required>
+
+<label>Service</label>
+<select id="service">
+<option>Haircut</option>
+<option>Facial</option>
+<option>Beard Trim</option>
+<option>Hair Coloring</option>
+<option>Manicure</option>
+</select>
+
+<label>Date</label>
+<input type="date" id="date" required>
+
+<label>Time Slot</label>
+<select id="time">
+<option>10:00 AM</option>
+<option>11:00 AM</option>
+<option>12:00 PM</option>
+<option>2:00 PM</option>
+<option>3:00 PM</option>
+<option>4:00 PM</option>
+<option>5:00 PM</option>
+</select>
+
+<button type="submit">Confirm Booking</button>
+
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
